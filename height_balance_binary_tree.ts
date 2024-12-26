@@ -36,7 +36,7 @@ function isHeightBalance(tree: BinaryTree | null): HeightResult {
   );
 }
 
-describe("Is linkedlist palindrom", () => {
+describe("Is Height Balanced Tree", () => {
   it("Happy Path - Even List", () => {
     let head = constructBinaryTree({
       nodes: [
